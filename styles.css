@@ -39,5 +39,9 @@ small {
     font-weight: bold;
 }
 
+.task-desc {
+    text-align: left;
+    margin-bottom: 0;
+}
 
 

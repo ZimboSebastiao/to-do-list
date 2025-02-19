@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
             taskDiv.innerHTML = `
                 <div class='div-task'>
                     <p class='task-title'>${title}</p>
-                    <span class='task-desc'>${desc}</span><br>
+                    <p class='task-desc'>${desc}</p><br>
                     <small class='task-author'>${author} - ${date}</small>
                 </div>
                 <div class='task-actions'>
