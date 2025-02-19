@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class='div-task'>
                     <p class='task-title'>${title}</p>
                     <p class='task-desc'>${desc}</p><br>
-                    <small class='task-author'>${author} - ${date}</small>
+                    <p class='task-author'>${author} - ${date}</p>
                 </div>
                 <div class='task-actions'>
                     <button class='btn-edit'>✏️</button>
