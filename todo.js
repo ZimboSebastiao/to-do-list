@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const taskAuthor = document.getElementById('taskAuthor');
     let editingTask = null;
 
-    const forbiddenWords = ["palavra1", "palavra2", "palavra3"];
+    const forbiddenWords = ["puta", "vadia", "cona", "macaca", "macaco", "caralho", "vagabunda", "burra", "besta", "vagina", "penis", "pênis", "pau", "buceta", "lésbica", "lesbica", "lesbian", "sapatão", "sapatao", "sapa", "africa", "áfrica", "escura", "preta", "prostituta", "pipito", "piça", "pica", "merda"];;
 
     function containsForbiddenWords(text) {
         return forbiddenWords.some(word => text.toLowerCase().includes(word));
