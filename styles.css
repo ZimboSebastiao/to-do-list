@@ -30,7 +30,7 @@ body {
     cursor: pointer;
 }
 
-small {
+.task-author {
     font-size: 11px;
 }
 
