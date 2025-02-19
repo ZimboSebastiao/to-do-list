@@ -32,6 +32,7 @@ body {
 
 .task-author {
     font-size: 11px;
+    text-align: left;
 }
 
 .task-title {
